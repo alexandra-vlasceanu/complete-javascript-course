@@ -85,7 +85,7 @@ btnHold.addEventListener('click', function () {
         .classList.add('player--winner');
 
       document.getElementById(`current--${activePlayer}`).textContent =
-        'You won!';
+        '🎉🎉🎉 You won!🏆';
 
       document
         .querySelector(`.player--${activePlayer}`)

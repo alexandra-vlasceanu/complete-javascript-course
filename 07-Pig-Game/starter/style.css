@@ -10,13 +10,20 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
 }
-
-body {
+.rules {
+  font-size: 2rem;
+  padding: 1rem;
+  color: white;
+}
+.view {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
-  height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+.game {
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
