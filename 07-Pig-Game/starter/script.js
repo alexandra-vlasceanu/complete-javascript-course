@@ -83,6 +83,10 @@ btnHold.addEventListener('click', function () {
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.add('player--winner');
+
+      document.getElementById(`current--${activePlayer}`).textContent =
+        'You won!';
+
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.remove('player--active');
